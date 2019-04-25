@@ -1,6 +1,3 @@
-#Tianshun Deng
-#Assignment 4
-
 plotTableFromDisk <- function(dataFile="geneData.csv", outpdf="mypdf.pdf", outcor="mycor.csv")
 {
   z1 <- read.csv(dataFile)
