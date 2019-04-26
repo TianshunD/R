@@ -1,4 +1,4 @@
-# Query data is the input data that we want to map to reference
+# Query data is the input data that we want to warp to reference
 data_reference <- 1:10
 data_query <- seq(1,10,0.5) + rnorm(19)
 data_query <- c(1.630884, 2.264566, 2.462387, 3.964498, 6.602972, 7.192787, 5.960292, 8.458906, 9.742724, 9.903882)
