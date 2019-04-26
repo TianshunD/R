@@ -1,5 +1,3 @@
-#	Tianshun Deng
-#	Assignment #6
 plotLinesOrPolygons <- function(lines_vector,whichPlot="lines",filename="lines.pdf")
 {
   library(sp)                      
