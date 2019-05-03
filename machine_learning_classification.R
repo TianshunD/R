@@ -1,3 +1,8 @@
+# use a neural
+#	net classifier to classify an image
+# and report the overall accuracy, kappa
+# coefficient, and confusion matrix of
+#	the classification.
 install.packages("nnet")
 install.packages("e1071")
 
