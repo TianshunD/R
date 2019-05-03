@@ -19,7 +19,7 @@ machine_learning_classification = function(x, training, testing)
   tahoe_knn_training = extract(x, training, df=T)
   x_extract_training = cbind(tahoe_knn_training[c(2,3,4)], data.frame(training)[2])
   
-  #extract the 3-bands of data at the testing locations
+  #extract the 3-bands of data at the testing locations.
   tahoe_knn_test = extract(x, testing, df=T)
   x_extract_testing = cbind(tahoe_knn_test[c(2,3,4)], data.frame(testing)[2])
   
