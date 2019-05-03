@@ -32,7 +32,7 @@ machine_learning_classification = function(x, training, testing)
   classifier = nnet(SPECIES ~ ., x_extract_training, size=2, rang=0.1, decay=5e-4, maxit=1000)
   x_predict = predict(classifier, tahoe_knn_test, type = "class")
   
-  #use spCbind to cbind to a Spatial*DataFrame
+  #use spCbind to cbind to a Spatial DataFrame
   training_points_w_spectra = spCbind(training, tahoe_knn_training)
   testing_points_w_spectra = spCbind(testing, tahoe_knn_test)
   
